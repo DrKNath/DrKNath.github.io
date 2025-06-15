@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Portfolio avec Navigation Latérale</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav aria-label="Navigation principale">
+    <header><img src="photo-identité.png" alt="photo ID"></header>
+    <div class="dropdown">
+      <button class="dropdown-btn" aria-haspopup="true" aria-expanded="false" aria-controls="projets-menu">
+        Projets ▼
+      </button>
+      <div class="dropdown-content" id="projets-menu" role="menu" aria-label="Menu des projets">
+        <a href="#projet1" role="menuitem">Projet 1 - Site e-commerce</a>
+        <a href="#projet2" role="menuitem">Projet 2 - Application mobile</a>
+        <a href="#projet3" role="menuitem">Projet 3 - Portfolio interactif</a>
+      </div>
+    </div>
+  </nav>
+  <main>
+    <section id="presentation" aria-label="Présentation">
+      <h2>Qui je suis ? </h2>
+      <p>
+        Je m'appelle Nathanaël Friedrich, j'ai 18ans , je suis étudiant en Réseaux et Télécommunications à l'IUT de Colmar.
+      </p>
+    </section>
+    <section>
+        <h2>Diplomes</h2>
+        <ul>
+          <li>Baccalauréat STI2D option ITEC</li>
+          <li>En cours : BUT Réseaux et Télécommunications</li>
+        </ul>
+    </section>
+  </main>
+</body>
+</html>
